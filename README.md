@@ -46,5 +46,6 @@ help(swc_intersect_detect.run)
 ## Example
 An example is provided in [example/purkinje.py](example/purkinje.py), which first converts the 
 [example/Purkinje19b972-1.nrn](example/Purkinje19b972-1.nrn) morphology to a swc file, then performs intersection detection on the morphology data. The curation file can be visualized in
-[neuTube](https://www.neutracing.com/) as below, with curation tag (intersections) colored `red`.
+[neuTube](https://www.neutracing.com/) as below, with curation tag (intersections) colored 
+<span style="color:red">red</span>.
 ![curation](example/curation.png)
