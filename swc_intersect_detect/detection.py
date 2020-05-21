@@ -181,7 +181,7 @@ def classify_intersections(swc_data, graph, interp_distance, curation_tag):
 
 def run(input_swc : str, output_swc : str = None, interp_distance : float = 0.1, curation_tag : int = 999):
     """
-    Perfrom intersection detection on the input_swc file, with interpolation distance 
+    Perform intersection detection on the input_swc file, with interpolation distance
     interp_distance. Label the intersections in the output_swc, with curation_tag.
 
     If only input_swc is given as "example.swc", 
@@ -195,7 +195,7 @@ def run(input_swc : str, output_swc : str = None, interp_distance : float = 0.1,
     elif output_swc[0:-4] != ".swc":
         output_swc += ".swc"
 
-    print("Genrate topological graph and spatial index from the data\n")
+    print("Generate topological graph and spatial index from the data\n")
     graph, spatial_index = gen_graph_and_spatial_index(swc_data)
 
     print("Detect intersections using spherical interpolation with minmum distance %f\n" %(interp_distance))

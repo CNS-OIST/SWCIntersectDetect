@@ -140,7 +140,7 @@ def read_swc(file_path : str) -> Tuple[dict, List[str]]:
         if len(secs) == 0:
             continue
         if len(secs) != 7:
-            raise Exception("Unable to parser content %s" % line)
+            raise Exception("Unable to parse content %s" % line)
         id = int(secs[0])
         data[id] = {"type": int(secs[1]),
                     "point": np.array([float(secs[2]),
