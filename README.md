@@ -18,7 +18,7 @@ if the morphology is in `.nrn` format
 ```
 git clone https://github.com/CNS-OIST/SWCIntersectDetect.git
 cd SWCIntersectDetect
-python steup.py install
+python setup.py install
 ```
 
 ## Usage
